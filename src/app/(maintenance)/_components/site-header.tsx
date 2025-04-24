@@ -61,7 +61,7 @@ export default function Navbar() {
         {/* Main navbar container that will expand on mobile */}
         <motion.nav 
           className={`w-full overflow-hidden bg-accent lg:bg-background rounded-2xl ${
-            isScrolled ? 'mt-2 bg-accent lg:border' : ''
+            isScrolled ? 'mt-2 bg-accent border' : ''
           } ${isOpen ? 'rounded-b-none md:rounded-2xl' : 'rounded-2xl'}`}
           layout
           transition={{ duration: 0.3 }}
